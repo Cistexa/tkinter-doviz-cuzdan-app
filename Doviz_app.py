@@ -15,7 +15,7 @@ conn = http.client.HTTPSConnection("api.collectapi.com")
 # istek başliklarini (headers) ayarlama
 headers = {
     'content-type': "application/json",
-    'authorization': "apikey 3pRlnSOV71JapHIIZWlByn:0eUzewQLzCcq2FyHPkDdYA"
+    'authorization': "apikey **************"
 }
 
 # GET istegi gönderme
@@ -47,7 +47,7 @@ print(currency_names)
 conn.close()
 
 
-api_key = "3pRlnSOV71JapHIIZWlByn:0eUzewQLzCcq2FyHPkDdYA"
+api_key = "******************"
 
 def dovizcekme(api_key):
     conn = http.client.HTTPSConnection("api.collectapi.com")
